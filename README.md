@@ -1,5 +1,6 @@
 # cloneall.sh - a small script to clone all of your github repositories at once
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-orange.svg)]
+![Project State](https://img.shields.io/badge/Working%3F-yes-green.svg)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-nope-orange.svg)
 ## Usage
 ```
 cloneall.sh [(-s|-h)] -u <username> [-p] [-d <directory>]
@@ -19,4 +20,3 @@ Licensed under the MIT license, see LICENSE file.
 
 ## Contributing
 If you found a way to improve this script, just make a pr.
-
