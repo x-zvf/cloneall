@@ -15,6 +15,9 @@ Options:
                will still be created. Defaults to current directory.
 ```
 
+## Warning
+This script does not work with 2FA yet, and it is using deprecated HTTP authentication.
+
 ## LICENSE
 Licensed under the MIT license, see LICENSE file.
 
