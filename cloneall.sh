@@ -73,7 +73,8 @@ then
     curlopts="$curlopts --user '$username'"
 fi
 
-res=$(curl $curlopts "https://api.github.com/users/$username/repos")
+# 100 should be fine for most
+res=$(curl $curlopts "https://api.github.com/users/$username/repos?per_page=100")
 
 # Response error handling
 if [ -n "$(echo \"$res\"| grep ' \"message\": \"Not Found\"')" ];
